@@ -19,8 +19,12 @@ main {
 }
 
 
-#binario{
+input[type=text]{
+    display:block;
+    margin: 0 auto;
     padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
 }
 
 button#converter{
@@ -30,17 +34,6 @@ margin: 50px 0px;
 
 div{
     color:#a1eafb;
-}
-div#res{
-    height: 25px;
-    padding: 5px 0px;
-    background-color: whitesmoke;
-    width: auto;
-    max-width: 170px;
-    margin: auto;
-    border-radius: 5px;
-    color: black;
-    font-size: 13px;
 }
 
 footer{

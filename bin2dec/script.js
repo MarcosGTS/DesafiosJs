@@ -1,15 +1,16 @@
 const binario = document.querySelector("input#binario");
 const botao = document.querySelector("button#converter");
+const resposta = document.querySelector("input#resultado")
 botao.addEventListener("click", conversor);
 
 function conversor() {
-    let resposta = document.querySelector("div#res");
-    let numero = binario.value;
+    let numero = Number(binario.value);
+    let tamanho = binario.value.length;
+    let aux = numero;
     let decimal = 0;
-    let aux = binario.value;
     let flag = true;
     
-    for(let i = 0; i < numero.length; i++){
+    for(let i = 0; i < tamanho; i++){
         if(aux%10 == 1 || aux%10 == 0){
             decimal += (aux%10)*2**i;
             aux = Math.floor(aux/10);
@@ -20,10 +21,8 @@ function conversor() {
         }
     }
 
-   if(flag){
-    resposta.innerHTML= `<strong>${decimal}<strong>`;
-   }
+    if(flag){
+        resposta.value = `${decimal}`;
+    }
 }
 
-
-let num = 400
