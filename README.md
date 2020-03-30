@@ -1,4 +1,5 @@
 # DesafiosJs
-Uma lista de execircios que encontrei no github 
+Um exercicio basico
 
--Alem de utilizar esse projeto para aprender git/github
+-Consiste em uma aplicação que transforma 
+um numero decimal em binário.
