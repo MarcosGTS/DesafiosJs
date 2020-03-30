@@ -1,0 +1,49 @@
+body{
+    background-color: #a1eafb;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    color:#1f4287;
+}
+#titulo{
+    padding: 40px  0px;
+    font-size: small;
+    color:#a1eafb;
+}
+main {
+    background-color:#1f4287;
+    border-radius: 10px;
+    width: auto;
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+
+#binario{
+    padding: 10px 0px;
+}
+
+button#converter{
+margin: 50px 0px;
+
+}
+
+div{
+    color:#a1eafb;
+}
+div#res{
+    height: 25px;
+    padding: 5px 0px;
+    background-color: whitesmoke;
+    width: auto;
+    max-width: 170px;
+    margin: auto;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+}
+
+footer{
+    color:#1f4287;
+    font-size: smaller;
+}
