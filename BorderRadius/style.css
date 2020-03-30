@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+}
+
+#cubo{
+    height: 10em;
+    width: 25em;
+    background-color: aqua;
+    margin:0 auto;
+}
+
+input[type=text]{
+    width: 5rem;
+}
+#conteiner{
+    
+}
