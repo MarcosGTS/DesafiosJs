@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#canvas {
+    display: flex;
+    flex-direction:column ;
+    width: 90vw;
+    height: 40vh;
+    padding: 10px;
+    min-height: 150px;
+    max-width: 550px;
+    justify-content: space-around;
+    border-radius: 10px ;
+}
+
+#colors {
+    display: flex;
+    justify-content: space-between;
+}

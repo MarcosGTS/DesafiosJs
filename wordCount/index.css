@@ -20,9 +20,11 @@ main {
 
 #app {
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     background-color: red;
     width: 80%;
+    height: 100%;
+
     align-items: center;
     
 }
@@ -34,5 +36,7 @@ main {
 
 #status {
     background-color: whitesmoke;
+    height: 80%;
+    width: 30%;
 
 }
