@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#majorBall {
+    background-color: black;   
+    min-width: 500px;
+    min-height: 500px;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minorBall {
+    background-color: whitesmoke;
+    border:  solid;
+    border-width: 10px;
+    border-color: rgb(194, 194, 194);
+    width: 45%;
+    height: 45%;
+    border-radius:50%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    max-width: 80%;
+}
