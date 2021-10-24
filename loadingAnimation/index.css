@@ -1,0 +1,22 @@
+body {
+    margin:0;
+}
+
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+#loader {
+    height: 50px;
+    width: 50px;  
+    border: solid 20px black;      
+    background-color: blue;
+    border-top-color: aquamarine;
+    border-bottom-color: aquamarine;
+    border-radius: 50%;
+
+    animation: rotation 1.5s linear infinite;
+}
+
+
