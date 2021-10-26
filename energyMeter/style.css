@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #c3e0e5;
+}
+
+main {
+    background-color: #274472;
+    color: whitesmoke;
+    width: 40%;
+    height: 40vh;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+}
+
+#barConteiner {
+    width: 80%;
+    background-color: rgb(38, 38, 121);
+
+    border-radius: 10px ;
+}
+
+#energyBar {
+    background-color: blue;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px ;
+}
