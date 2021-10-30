@@ -1,0 +1,11 @@
+const data = [
+    {name: "Marcos", telephone: "999-999-999", country: "Brazil" , description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, consequuntur soluta odio et reprehenderit dolorem illum rerum aperiam sit! Quam eum odio veritatis officiis mollitia! Ratione quam distinctio placeat obcaecati."},
+    {name: "Maria", telephone: "999-999-999", country: "Brazil" , description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, consequuntur soluta odio et reprehenderit dolorem illum rerum aperiam sit! Quam eum odio veritatis officiis mollitia! Ratione quam distinctio placeat obcaecati."} , 
+    {name: "Joriscreid", telephone: "999-999-999", country: "Brazil" , description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, consequuntur soluta odio et reprehenderit dolorem illum rerum aperiam sit! Quam eum odio veritatis officiis mollitia! Ratione quam distinctio placeat obcaecati."},
+    {name: "Joao", telephone: "999-999-999", country: "Brazil" , description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, consequuntur soluta odio et reprehenderit dolorem illum rerum aperiam sit! Quam eum odio veritatis officiis mollitia! Ratione quam distinctio placeat obcaecati."},
+    {name: "Astoufo", telephone: "999-999-999", country: "Brazil" , description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, consequuntur soluta odio et reprehenderit dolorem illum rerum aperiam sit! Quam eum odio veritatis officiis mollitia! Ratione quam distinctio placeat obcaecati."},
+    {name: "Julio", telephone: "999-999-999", country: "Brazil" , description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, consequuntur soluta odio et reprehenderit dolorem illum rerum aperiam sit! Quam eum odio veritatis officiis mollitia! Ratione quam distinctio placeat obcaecati."},
+    {name: "Ana", telephone: "999-999-999", country: "Brazil" , description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, consequuntur soluta odio et reprehenderit dolorem illum rerum aperiam sit! Quam eum odio veritatis officiis mollitia! Ratione quam distinctio placeat obcaecati."},
+]
+
+export default data
