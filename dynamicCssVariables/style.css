@@ -1,0 +1,40 @@
+:root {
+    --userId-bColor: white;
+    --password-bColor: white;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    width: 30vw;
+    min-width: 200px;
+    height: 150px;
+
+    padding: 1.25% 2.5%;
+
+    background-color: rebeccapurple;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+#userId
+{
+    background-color: var(--userId-bColor);
+}
+
+#password
+{
+    background-color: var(--password-bColor);
+}
+
+#warning {
+    text-align: center;
+}
