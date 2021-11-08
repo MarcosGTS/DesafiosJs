@@ -58,15 +58,15 @@ class Bullet {
 }
 
 class Enemy {
-    constructor(x, y, radius, color, velocity, directionX, directionY)
+    constructor(x, y, radius, color, velocity, destineX, destineY)
     {
         this.x = x
         this.y = y
         this.radius = radius
         this.color = color
         this.velocity = velocity
-        this.directionX = directionX
-        this.directionY = directionY
+        this.directionX = destineX - x
+        this.directionY = destineY - y
     }
 
     draw()
@@ -79,7 +79,7 @@ class Enemy {
 
     update()
     { 
-        let angle = Math.atan2(this.directionY - this.y,this.directionX - this.x)
+        let angle = Math.atan2(this.directionY, this.directionX)
         this.x += this.velocity * Math.cos(angle)
         this.y += this.velocity * Math.sin(angle)
         this.draw()
@@ -113,8 +113,9 @@ function spawnEnemy() {
         }
         
         let color = "green"
+        let velocity = 3
 
-        ENEMIES.push(new Enemy(x, y, radius, color, 3,player.x, player.y))
+        ENEMIES.push(new Enemy(x, y, radius, color, velocity, player.x, player.y))
     }, 200);
 }
 

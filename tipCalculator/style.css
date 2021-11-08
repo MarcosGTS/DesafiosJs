@@ -1,0 +1,45 @@
+* {
+    font-size: large;
+    font-family: sans-serif;
+    color: whitesmoke
+}
+
+body {
+    height:  100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: radial-gradient(#01060c,#010c30);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25vw;
+    height: 50vh;
+
+    padding: 2.5% 5% ;
+
+    background-color: #113CFC;
+    border-radius: 10px;
+}
+
+.form-input {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    width: 100;
+}
+
+#result {
+    font-weight: bolder;
+}
+
+input {
+    width: 70%;
+    color: black;
+}
