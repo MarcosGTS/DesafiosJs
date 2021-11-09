@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background: hsl(230 35% 7%);
+}
+
+button {
+    width: 40vh;
+    height: 40vh;
+    border: none;
+    border-radius: 50%;
+
+    font-family: "ZenAntique";
+    font-size: x-large;
+
+    transition: 250ms linear;
+}
+
+#spaceButton:hover{
+    border: solid rgb(122, 126, 134);  
+    border-width: 60px;
+    transform: scale(1.1);
+}
