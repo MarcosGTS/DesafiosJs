@@ -1,0 +1,59 @@
+* {
+    font-size: medium;
+}
+header {
+   display: flex; 
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100vw;
+   height: 5vh;
+   background-color: blue;
+   padding: 0 2%;
+
+   align-items: center;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-btn {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.dropdown-btn:hover {
+    color: gainsboro;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    background-color: blueviolet;
+
+    pointer-events: none;
+    opacity: 0;
+
+    transform: translateY(-10px);
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+
+    transition: 150ms ease-in-out;
+}
+
+.dropdown > .dropdown-btn:focus + .dropdown-content {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+a {
+    text-decoration: none;
+}
