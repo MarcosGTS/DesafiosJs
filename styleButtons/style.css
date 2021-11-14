@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 20vh;
+    justify-content: space-around;
+}
+
+a {
+    width:225px ;
+    padding: 1.05% 0 ;
+
+    text-align: center;
+    border-radius: 10px;
+
+    font-family: "Karla", monospace;
+    font-weight: bolder;
+    font-size: large;
+    letter-spacing: 2px;
+
+    text-decoration: none;
+    color: white;
+
+    box-shadow: 1px 1px 5px rgba(105, 104, 104, 0.521);
+    background-blend-mode: hue;
+}
+a:hover{
+    filter: brightness(0.95);
+}
+.cancel {
+    background-color: red;
+}
+
+.submit {
+    background-color: green;
+}
