@@ -1,7 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    font-size: 18px;
+
+    font-family:"Karla", sans-serif
+}
+
 #perfil {
     width: 75px;
     height: 75px;
     object-fit:cover;
 
     border-radius: 50%;
+}
+
+#review {
+    width: 60%;
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-color: whitesmoke;
+
+    padding: 2.5% 5%;
+    box-shadow: rgba(0, 0, 0, 0.37) 2px 2px 5px;
+
+    border-radius: 5px;
+}
+
+#review button {
+    background-color: rgb(90, 90, 240);
+    color: white;
+     
+    border-radius: 5px;
+    border-style: none;
+
+    padding: 10px 20px;
+    min-width:fit-content;
+
+    transition: 100ms linear ;
+}
+
+#direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    max-width: 125px;
+    margin: 5% 0;
+}
+
+#review button:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
+#review button:active{
+    transform: scale(0.9);
 }
