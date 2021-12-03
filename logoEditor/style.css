@@ -1,0 +1,40 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: fit-content;
+    padding: 2.5%;
+
+    border-radius: 10px;
+
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.452) 5px 5px 10px;
+}
+
+.logo {
+    
+    height: 50px;
+    width: auto;
+
+    border-style: none;
+    border-radius: 100px;
+    background-color: black;
+    color: whitesmoke;
+    
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+
+    margin: 10% 0;
+}
+
