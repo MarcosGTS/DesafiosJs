@@ -1,0 +1,27 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    background-color: whitesmoke;
+    box-shadow: gray 5px 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 2.5px;
+    width: 35vw;
+    min-width: 300px;
+    
+    padding: 10px;
+}
+
+main button {
+    margin: 10px 0;
+}
+
+
