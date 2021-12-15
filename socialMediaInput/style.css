@@ -1,0 +1,34 @@
+main {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.counter {
+    text-align: end;
+}
+
+.tweet-form {
+    background-color: whitesmoke;
+    padding: 0.5rem;
+
+    border-radius: 0.5rem;
+
+    box-shadow: rgba(71, 71, 71, 0.5) 5px 5px 10px;
+}
+
+.tweet-form button {
+    background-color: rgb(104, 104, 255);
+    color: whitesmoke;
+    font-weight: bold;
+
+    padding: 0.5rem;
+
+    border-radius: 2rem;
+    border-style: none;
+
+    transition: 150ms linear;
+}
+
+.tweet-form button:hover {
+    transform: scale(1.1);
+}
