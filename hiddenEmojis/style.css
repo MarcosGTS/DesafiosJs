@@ -1,0 +1,30 @@
+.emojis {
+    display: flex;
+}
+
+main {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.emojis {
+    width: fit-content;
+}
+
+.emoji-container {
+    width: 4rem;
+    height: 10rem;
+    font-size: 50px;
+
+    padding: 1rem 0.75rem;
+    margin: 0.5rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+    transition: 250ms linear;
+}
+
+.hidden {
+    display: none;
+}
